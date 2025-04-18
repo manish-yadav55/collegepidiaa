@@ -16,8 +16,8 @@ public class JwtService {
     private final Key SECRET_KEY = Keys.hmacShaKeyFor("YourSuperSecretKeyForJWTMustBeVeryLong1234567890".getBytes());
 
     // Expiration times (in milliseconds)
-    private final long ACCESS_TOKEN_EXPIRATION_MS = 15 * 60 * 1000; // 15 minutes
-    private final long REFRESH_TOKEN_EXPIRATION_MS = 24 * 60 * 60 * 1000; // 24 hours
+    private final long ACCESS_TOKEN_EXPIRATION_MS = 24 * 60 * 1000; // 15 minutes
+    private final long REFRESH_TOKEN_EXPIRATION_MS = 72 * 60 * 60 * 1000; // 24 hours
 
     // Generate an access token
     public String generateAccessToken(UserDetails userDetails) {

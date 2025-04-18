@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -28,9 +29,13 @@ public class ProfileService {
 
     // Get the current college profile based on email
     public ApiResponse getProfile(String email) {
-        College college = collegeRepo.findByAdminAccountEmail(email)
+        College c = collegeRepo.findByAdminAccountEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("Profile not found for email: " + email));
-        return ApiResponse.success("Profile retrieved", college);
+
+        if (!c.isProfileCreated()) {
+            return ApiResponse.error("Profile incomplete. Please finish and press Complete.");
+        }
+        return ApiResponse.success("Profile retrieved", c);
     }
 
     // Update basic details
@@ -94,21 +99,59 @@ public class ProfileService {
     public ApiResponse updateDocuments(String email, DocumentRequest request) {
         College college = collegeRepo.findByAdminAccountEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("Profile not found for email: " + email));
-        // Initialize list if null
+        // Initialize document list if null
         if (college.getDocuments() == null) {
             college.setDocuments(new ArrayList<>());
         }
-        // Create a new document record (or update an existing one if you want)
+        // Create a new document record with default values for status and verificationNotes.
         CollegeDocument doc = CollegeDocument.builder()
                 .type(request.getType())
                 .fileUrl(request.getFileUrl())
                 .uploadDate(new Date())
-                .status(request.getStatus())
-                .verificationNotes(request.getVerificationNotes())
+//                .status("pending")                   // default status set as pending
+                .status("verified")                   // default status set as verified
+                .verificationNotes("Khus Raho bsdk bina document review kiye verified kr diya ")               // default empty verification notes
                 .build();
         college.getDocuments().add(doc);
         college.setUpdatedAt(new Date());
         collegeRepo.save(college);
-        return ApiResponse.success("Document added/updated", doc);
+        return ApiResponse.success("Document added successfully", doc);
     }
+
+    public ApiResponse completeProfile(String email) {
+        College c = collegeRepo.findByAdminAccountEmail(email)
+                .orElseThrow(() -> new ResourceNotFoundException("Profile not found"));
+
+        List<String> missing = new ArrayList<>();
+
+        if (c.getBasicDetails() == null) {
+            missing.add("Basic Details");
+        }
+        if (c.getContactInfo() == null) {
+            missing.add("Contact Information");
+        }
+        if (c.getAdminAccount() == null
+                || c.getAdminAccount().getName() == null
+                || c.getAdminAccount().getDesignation() == null
+                || c.getAdminAccount().getPhone() == null) {
+            missing.add("Admin Account");
+        }
+        if (c.getDocuments() == null || c.getDocuments().isEmpty()) {
+            missing.add("Documents");
+        }
+
+        if (!missing.isEmpty()) {
+            String message = "Cannot complete profile; missing: " +
+                    String.join(", ", missing) + ".";
+            return ApiResponse.error(message);
+        }
+
+        // All required sections are filled
+        c.setProfileCreated(true);
+        c.setUpdatedAt(new Date());
+        collegeRepo.save(c);
+
+        return ApiResponse.success("Profile marked as complete");
+    }
+
 }

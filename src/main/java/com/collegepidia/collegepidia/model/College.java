@@ -27,7 +27,8 @@ public class College {
     private Date createdAt;
     private Date updatedAt;
     private Integer usageCount; // For guest mode API limit tracking
-
+    @Builder.Default
+    private boolean profileCreated = false;
     // Nested Classes
     @Data
     @Builder

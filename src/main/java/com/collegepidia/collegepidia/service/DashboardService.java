@@ -13,31 +13,30 @@ import org.springframework.stereotype.Service;
 public class DashboardService {
 
     private final CollegeRepository collegeRepo;
-    
+
     public ApiResponse getDashboardInfo(String email) {
-        // Retrieve the College using the admin account email
-        College college = collegeRepo.findByAdminAccountEmail(email)
+        College c = collegeRepo.findByAdminAccountEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("College not found for email: " + email));
-        
-        // Check if profile is complete. 
-        // For example, if basicDetails is null, assume profile is incomplete.
-        if (college.getBasicDetails() == null) {
+
+        if (!c.isProfileCreated()) {
             return ApiResponse.error("Profile incomplete. Please complete your profile first.");
         }
-        
-        // If profile is complete, continue based on verification status
-        String status = college.getVerification().getStatus().name();
+
+        String status = c.getVerification().getStatus().name();
         if ("PENDING".equalsIgnoreCase(status)) {
-            return ApiResponse.success("Welcome " 
-                    + (college.getBasicDetails() != null ? college.getBasicDetails().getName() : "User")
-                    + "! Your account is pending verification. You are in guest mode with limited access.");
+            return ApiResponse.success(
+                    "Welcome " + c.getBasicDetails().getName() +
+                            "! Your account is pending verification. You are in guest mode.");
         } else if ("VERIFIED".equalsIgnoreCase(status)) {
-            return ApiResponse.success("Welcome " 
-                    + college.getBasicDetails().getName() 
-                    + "! Your college is verified. Enjoy full access to the application features.", college);
+            return ApiResponse.success(
+                    "Welcome " + c.getBasicDetails().getName() +
+                            "! Your college is verified. Enjoy full access.", c);
         } else if ("REJECTED".equalsIgnoreCase(status)) {
-            return ApiResponse.error("Your college account verification has been rejected. Please contact support.");
+            return ApiResponse.error("Your college account verification has been rejected.");
         }
+
         return ApiResponse.error("Invalid verification status.");
     }
+
+
 }

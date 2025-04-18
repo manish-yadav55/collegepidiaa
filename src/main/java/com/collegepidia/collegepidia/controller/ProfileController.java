@@ -23,20 +23,14 @@ public class ProfileController {
     private final ProfileService profileService;
     private final CollegeRepository collegeRepo;
     // Get the current authenticated college's profile
-    public ApiResponse getProfile(String email) {
-        College college = collegeRepo.findByAdminAccountEmail(email)
-                .orElseThrow(() -> new ResourceNotFoundException("Profile not found for email: " + email));
-        // Check if profile basic details exist
-        if (college.getBasicDetails() == null) {
-            return ApiResponse.error("Profile incomplete. Please complete your profile first.");
-        }
-        return ApiResponse.success("Profile retrieved", college);
-    }
+
     @GetMapping  // Add this missing annotation
     public ResponseEntity<ApiResponse> getProfile(Authentication authentication) {
         String email = authentication.getName();
-        return ResponseEntity.ok(getProfile(email));
+        // Service will handle the profileCreated check and return appropriate ApiResponse
+        return ResponseEntity.ok(profileService.getProfile(email));
     }
+
     // Update basic details (e.g., college name, short name, establishment year, address, etc.)
     @PutMapping("/basic")
     public ResponseEntity<ApiResponse> updateBasicDetails(@RequestBody BasicDetailsRequest request,
@@ -67,5 +61,11 @@ public class ProfileController {
                                                        Authentication authentication) {
         String email = authentication.getName();
         return ResponseEntity.ok(profileService.updateDocuments(email, request));
+    }
+
+    @PostMapping("/complete")
+    public ResponseEntity<ApiResponse> completeProfile(Authentication authentication) {
+        String email = authentication.getName();
+        return ResponseEntity.ok(profileService.completeProfile(email));
     }
 }
