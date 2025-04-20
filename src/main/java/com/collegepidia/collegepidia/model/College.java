@@ -23,7 +23,7 @@ public class College {
     private AdminAccount adminAccount;
     private VerificationDetails verification;
     private List<CollegeDocument> documents;
-
+    private List<SocialMedia> socialMedia;
     private Date createdAt;
     private Date updatedAt;
     private Integer usageCount; // For guest mode API limit tracking
@@ -41,6 +41,8 @@ public class College {
         private String institutionId;
         private String type; // government / private
         private Address address;
+        private String collegeLogoUrl;
+        private String collegeBannerUrl;
         private String website;
     }
 
@@ -111,5 +113,14 @@ public class College {
         private Date uploadDate;
         private String status; // pending, verified, rejected
         private String verificationNotes;
+    }
+
+    @Data
+    @Builder
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class SocialMedia {
+        private String platform;  // e.g., "LinkedIn", "Instagram"
+        private String url;       // e.g., "https://linkedin.com/college-page"
     }
 }

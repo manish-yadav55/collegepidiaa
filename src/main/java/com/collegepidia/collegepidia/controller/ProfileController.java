@@ -63,6 +63,13 @@ public class ProfileController {
         return ResponseEntity.ok(profileService.updateDocuments(email, request));
     }
 
+    @PutMapping("/social-media")
+    public ResponseEntity<ApiResponse> updateSocialMedia(@RequestBody College.SocialMedia request,
+                                                       Authentication authentication) {
+        String email = authentication.getName();
+        return ResponseEntity.ok(profileService.updateSocialMedia(email, request));
+    }
+
     @PostMapping("/complete")
     public ResponseEntity<ApiResponse> completeProfile(Authentication authentication) {
         String email = authentication.getName();

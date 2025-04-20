@@ -12,5 +12,7 @@ public class BasicDetailsRequest {
     private String institutionId;
     private String type; // e.g., government/private
     private Address address; // re-use the same Address model or create a separate DTO if required
+    private String collegeLogoUrl;
+    private String collegeBannerUrl;
     private String website;
 }

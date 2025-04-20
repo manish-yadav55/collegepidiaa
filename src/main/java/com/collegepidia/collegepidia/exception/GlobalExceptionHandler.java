@@ -1,56 +1,36 @@
-// File: exception/GlobalExceptionHandler.java
 package com.collegepidia.collegepidia.exception;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
-
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
 @RestControllerAdvice
-@Slf4j
 public class GlobalExceptionHandler {
 
+    @ExceptionHandler(DuplicateCodeException.class)
+    public ResponseEntity<?> handleDuplicateCode(DuplicateCodeException ex) {
+        return error(HttpStatus.CONFLICT, ex.getMessage());
+    }
+
     @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<Object> handleNotFound(ResourceNotFoundException ex) {
-        log.error("Resource Not Found: {}", ex.getMessage());
-        return new ResponseEntity<>(createError(ex.getMessage()), HttpStatus.NOT_FOUND);
-    }
-
-    @ExceptionHandler(InvalidRequestException.class)
-    public ResponseEntity<Object> handleInvalidRequest(InvalidRequestException ex) {
-        log.error("Invalid Request: {}", ex.getMessage());
-        return new ResponseEntity<>(createError(ex.getMessage()), HttpStatus.BAD_REQUEST);
-    }
-
-    @ExceptionHandler(AccessLimitExceededException.class)
-    public ResponseEntity<Object> handleAccessLimit(AccessLimitExceededException ex) {
-        log.error("Access Limit Exceeded: {}", ex.getMessage());
-        return new ResponseEntity<>(createError(ex.getMessage()), HttpStatus.TOO_MANY_REQUESTS);
-    }
-
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<Object> handleValidation(MethodArgumentNotValidException ex) {
-        Map<String, String> errors = new HashMap<>();
-        ex.getBindingResult().getFieldErrors().forEach(error -> {
-            errors.put(error.getField(), error.getDefaultMessage());
-        });
-        log.error("Validation Error: {}", errors);
-        return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
+    public ResponseEntity<?> handleNotFound(ResourceNotFoundException ex) {
+        return error(HttpStatus.NOT_FOUND, ex.getMessage());
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<Object> handleGeneral(Exception ex) {
-        log.error("Unhandled Exception: ", ex);
-        return new ResponseEntity<>(createError("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
+    public ResponseEntity<?> handleAll(Exception ex) {
+        return error(HttpStatus.INTERNAL_SERVER_ERROR, "Something went wrong: " + ex.getMessage());
     }
 
-    private Map<String, String> createError(String message) {
-        Map<String, String> error = new HashMap<>();
-        error.put("error", message);
-        return error;
+    private ResponseEntity<Map<String, Object>> error(HttpStatus status, String message) {
+        Map<String, Object> body = new HashMap<>();
+        body.put("timestamp", LocalDateTime.now());
+        body.put("status", status.value());
+        body.put("error", status.getReasonPhrase());
+        body.put("message", message);
+        return new ResponseEntity<>(body, status);
     }
 }
