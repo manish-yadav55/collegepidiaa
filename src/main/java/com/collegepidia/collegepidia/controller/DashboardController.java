@@ -2,6 +2,7 @@
 package com.collegepidia.collegepidia.controller;
 
 import com.collegepidia.collegepidia.dto.response.ApiResponse;
+import com.collegepidia.collegepidia.model.College;
 import com.collegepidia.collegepidia.service.DashboardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -19,5 +20,12 @@ public class DashboardController {
     public ResponseEntity<ApiResponse> getDashboard(Authentication authentication) {
         String email = authentication.getName();
         return ResponseEntity.ok(dashboardService.getDashboardInfo(email));
+    }
+
+    @PutMapping("/social-media")
+    public ResponseEntity<ApiResponse> updateSocialMedia(@RequestBody College.SocialMedia request,
+                                                         Authentication authentication) {
+        String email = authentication.getName();
+        return ResponseEntity.ok(dashboardService.updateSocialMedia(email, request));
     }
 }

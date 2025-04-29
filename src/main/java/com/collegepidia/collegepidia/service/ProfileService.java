@@ -120,22 +120,6 @@ public class ProfileService {
         return ApiResponse.success("Document added successfully", doc);
     }
 
-    public ApiResponse updateSocialMedia(String email, College.SocialMedia request) {
-        College college = collegeRepo.findByAdminAccountEmail(email)
-                .orElseThrow(() -> new ResourceNotFoundException("Profile not found for email: " + email));
-        // Initialize document list if null
-        if (college.getSocialMedia() == null) {
-            college.setSocialMedia(new ArrayList<>());
-        }
-        // Create a new document record with default values for status and verificationNotes.
-        College.SocialMedia socialmedia = College.SocialMedia.builder()
-                .platform(request.getPlatform())
-                .url(request.getUrl())
-                .build();
-        college.getSocialMedia().add(socialmedia);
-        collegeRepo.save(college);
-        return ApiResponse.success("SocialMedia added successfully", socialmedia);
-    }
 
     public ApiResponse completeProfile(String email) {
         College c = collegeRepo.findByAdminAccountEmail(email)
@@ -158,9 +142,9 @@ public class ProfileService {
         if (c.getDocuments() == null || c.getDocuments().isEmpty()) {
             missing.add("Documents");
         }
-        if (c.getSocialMedia() == null || c.getSocialMedia().isEmpty()) {
-            missing.add("Social Media Links");
-        }
+//        if (c.getSocialMedia() == null || c.getSocialMedia().isEmpty()) {
+//            missing.add("Social Media Links");
+//        }
         if (!missing.isEmpty()) {
             String message = "Cannot complete profile; missing: " +
                     String.join(", ", missing) + ".";

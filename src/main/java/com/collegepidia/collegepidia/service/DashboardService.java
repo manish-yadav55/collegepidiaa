@@ -8,6 +8,8 @@ import com.collegepidia.collegepidia.repository.CollegeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+
 @Service
 @RequiredArgsConstructor
 public class DashboardService {
@@ -38,5 +40,21 @@ public class DashboardService {
         return ApiResponse.error("Invalid verification status.");
     }
 
+    public ApiResponse updateSocialMedia(String email, College.SocialMedia request) {
+        College college = collegeRepo.findByAdminAccountEmail(email)
+                .orElseThrow(() -> new ResourceNotFoundException("Profile not found for email: " + email));
+        // Initialize document list if null
+        if (college.getSocialMedia() == null) {
+            college.setSocialMedia(new ArrayList<>());
+        }
+        // Create a new document record with default values for status and verificationNotes.
+        College.SocialMedia socialmedia = College.SocialMedia.builder()
+                .platform(request.getPlatform())
+                .url(request.getUrl())
+                .build();
+        college.getSocialMedia().add(socialmedia);
+        collegeRepo.save(college);
+        return ApiResponse.success("SocialMedia added successfully", socialmedia);
+    }
 
 }

@@ -1,0 +1,4310 @@
+[
+    {
+        "id": "95284019-c282-4c33-90d2-38624e69efb5",
+        "name": "Undergraduate",
+        "code": "UN",
+        "courses": [
+            {
+                "courseId": "234e2141-8d7b-4fd4-8050-098e8fc5fecf",
+                "name": "B.Tech",
+                "code": "B.T",
+                "departments": [
+                    {
+                        "id": "d3a2d060-bbc0-4c30-9368-934c94bf1f0d",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "6d11d2c1-fa1d-48f6-af4f-32c6e43a92a9",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "002ea14b-0412-402a-bd7c-8a081f25a09c",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "2d9757dc-036b-439e-8eb7-31f42c5a57c5",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "73db2136-9e65-4d49-982e-3894a91d74fb",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "e51da3a1-8e3b-4192-acaa-b24855c8b1b3",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "07d7abf7-65a2-4567-ad12-c0f42f456661",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "bd598556-9a4e-4e21-8c89-74c9b53b8c1f",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "d5882efa-e3dc-4657-a9a5-e4b9fc23ca51",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "798388f4-4159-4b52-b241-4843a01c6b22",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "28a9af6b-b28f-467b-963b-665253c0c473",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "5224b343-025e-433b-99d1-f9a857945a97",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "29af4c10-7504-4f06-9493-47b06f540972",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "1bcd2099-e04d-4cb3-a768-dc857e60d138",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "f0897077-f7e7-4645-b0f8-f67ac39d81c7",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "2ea76b3e-f54b-48be-a380-35173dba090b",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "f000b793-7db3-488e-b349-690ff6e93df2",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "ad233d66-2f7a-4cb2-a3b5-fa9135091a64",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "97db0876-3c1d-4c66-9e0d-5a44aa348c85",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "f3cba903-808e-4461-8ee1-6000d60f6657",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "fc45040e-fee4-4011-8921-44217ce018ec",
+                "name": "B.Sc",
+                "code": "B.S",
+                "departments": [
+                    {
+                        "id": "67a77cd8-58e8-4b56-aea0-fa33bdf3293b",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "c0beea82-ba85-4e2e-8d53-69af33808ef2",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "dfc58920-5745-4665-9324-059af0737195",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "33e800ee-1f07-423a-b971-25def2773885",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "09338a2f-dda0-4b9d-af49-eccb71d3ec49",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "136819bd-8d6e-4f9f-b071-16d67f2f5437",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "f79da27f-7bce-4c9b-9dfb-1f4cf260d903",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "e0e20fd7-a8b5-40bd-8f8a-a0ce37140d96",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "6160b4bf-14ac-46ba-b215-e7f9c6f44742",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "de798676-eb72-48a5-a184-56bb5152db4f",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "ff74088d-8bd8-41f6-a436-4706cc57470f",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "2f5501ad-0b1c-4877-b22b-92087bd9446a",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "2beb85b9-a54b-4ceb-8daf-e151dede6791",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "5578ce56-768d-41ac-8b61-fe5271d14ef8",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "6f9c4ad1-1f32-41b4-a268-a37098a060b2",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "bee651ea-edc7-4548-922a-5137704852f8",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "9b7c02cb-f11c-4541-a949-7f0faae3c317",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "c94f2261-48bc-4e58-a509-a7ffcdb6c517",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "7b112e5f-2d2e-4698-bd66-ee05844e4304",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "7a464e44-43ad-43af-bcf1-650d0e8cc293",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "e858f0e4-47a2-48e2-adcc-34e65851d4f6",
+                "name": "B.Com",
+                "code": "B.C",
+                "departments": [
+                    {
+                        "id": "3bc76b7f-54df-4d61-8a3d-cd75a2117ac0",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "f1bb58b6-fd0a-4f99-9cc0-c3bc7eae03c7",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "6edeba0f-10fa-4165-ae5c-997c994be072",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "9e3f6329-3dc5-4eaf-9bd0-91b7db00c35a",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "6a30ac8b-0063-4826-90a6-8e7ded4abb87",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "a92a3be7-5f28-490d-a31c-fe1b38c9652e",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "5b641cc3-a48b-4990-9c71-2cac75ac6c6e",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "385e90d8-0c61-412f-b704-70274eaa758a",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "0961ffb9-4aba-4085-835f-0c88fcbfac83",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "4d367e40-8054-4dd6-bba6-97a5779bed38",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "ea2c4986-1ccc-4d86-a0b5-996e925c1863",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "a9ce5fe7-313e-42be-89be-fbf35dab8ac3",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "aa72b87d-7cc7-4288-8dc1-5f5dd98495d3",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "3feaf1f8-4af0-448f-9ade-a9fce516b322",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "c0a37e30-0cae-4bbc-a048-99a476e88164",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "4dfa3f28-1e86-48a9-95bc-82f9a369f126",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "235de4cd-b6cb-419b-8b01-f8f8d32dc4a9",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "d64415ca-4c72-4a16-bc8c-3262fc006727",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "23cbf668-c3f5-4708-97b5-b345fd06dff5",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "dd68549c-b32b-44bf-a351-cf024b85e05d",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "d9981fe9-42d5-488d-ba4a-42bc4e35a695",
+                "name": "M.Tech",
+                "code": "M.T",
+                "departments": [
+                    {
+                        "id": "8c0e8983-fc17-4bd4-a358-71a035906324",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "e023bd54-8c17-4c33-bc55-0010d3b88588",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "1a1763d5-bdc3-4da2-9d3c-ccafca4a7870",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "1a2325c6-325c-4946-a93d-8e730ede713f",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "9ec275af-068c-4ad6-9150-23ac4075baef",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "0a1cbc4b-cb58-4367-98c3-f186316be824",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "f4ed42f1-772a-4b12-8bd4-75a9c505728b",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "4999b04b-6117-4e11-bee8-8e59f959c256",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "1f636d91-252b-498a-a0aa-152ab39d86cc",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "7f57e0ed-a1c4-4b05-80a1-82461f5feb0a",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "6b3d795e-81b0-4bbd-8cc0-40b391b615a2",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "06165600-4632-431e-bfc5-02c8db861b66",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "439ab450-380b-4153-9264-c02ecafa7ee0",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "000cfd1f-a92d-4e16-aeda-30971c929df8",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "0ece81cd-2290-4078-9b0d-02b0e101d9a8",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "fb7200e1-a5ca-427e-81f2-8fed3cf6f81f",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "c75d72fb-de6d-4228-8fc5-ea0067a50142",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "495dfec8-b665-4bc2-a253-44545c52509a",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "7611afed-e0f7-4ffa-980a-3c613d9c9b97",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "fdc27ed7-085d-4afb-a8a9-0024433a37e8",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "89bfbef9-9d30-4c5e-94e2-9a0dc26d4b9d",
+                "name": "M.A",
+                "code": "M.A",
+                "departments": [
+                    {
+                        "id": "f1dbe64f-6395-4671-b690-f0d063e13ec5",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "4826af3e-9ead-4807-992b-5f817c80ed6b",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "4612254e-afdc-4138-90ca-ccee62242574",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "0b7967ff-2ad6-4b8e-bc55-47dbdd36e0f5",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "c46e48b5-19cc-4720-9bdb-4d26f0b39074",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "0c8752f0-3082-4b7c-894f-ad5aead84a3d",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "3139883a-e891-4e06-8854-10b15f525144",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "59768504-e46f-4c40-bc29-bcc985d5f814",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "c07f91a2-b3e3-4ebe-8180-5c137558a6e0",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "bb47baa5-e71c-4b6a-8b43-160f306e234d",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "a5b65feb-e745-4189-a3fa-3e74561d7194",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "256f7d46-d0eb-4f95-a43d-9d5a7bccee37",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "48dc18fd-3a84-4a67-9278-efa005db3344",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "21b99c78-e4da-4287-a748-dd477c28e591",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "f56e6639-0e6a-4e92-aef6-5b2772bf8e01",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "15711d42-7235-4c40-b2c4-10c4221afdfd",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "97b79bd6-0832-4ea0-ae12-967e1b1bd9d6",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "af0f0543-cc2b-4e86-afb0-5d5b68fffe2b",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "9f986a38-71de-4b5a-905a-5b442a1c143c",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "6f1bd810-0d4e-4042-ab3f-c2134091d890",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "958ea979-24bf-41cf-a2cb-41abd1e53535",
+                "name": "M.Com",
+                "code": "M.C",
+                "departments": [
+                    {
+                        "id": "c09739ef-ed41-46c5-b41a-755c6117f9d7",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "211029b7-8455-4d0c-851b-8445d95d4f72",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "f9957157-4399-49c1-83aa-63b10b011313",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "8c63b608-a97e-4ba1-9bb2-a99bd481039a",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "5ef3701a-9056-45be-bb75-34676a16db14",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "2a8dc0d1-7b00-4584-9ff2-71eb13918e10",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "ab7a2733-ce41-48d1-932e-09de8a8e752a",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "87a5dc77-92a6-4037-995d-9654b909d284",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "51526c62-4892-4897-97a5-e655ac7fb7fd",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "41e49b39-4e7e-4af7-b89f-42b9e1b2a1be",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "173e6d36-bc4b-4573-913d-15f07a1a4704",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "c42d29b8-b9dc-46f3-b510-c0c33be537ac",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "333e25f4-71c1-4fec-9ff7-fd83671e2e84",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "a2ab80ca-2259-424f-b012-835aa2012745",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "f3b5b974-cdaa-41ac-8cdb-5893f0ea4e40",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "14c387ab-6ebf-4203-9107-606d3f267934",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "eb70b8fd-e5b2-48aa-96b7-2a2f0992b264",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "7573283d-42d1-41ab-a526-c867c45981ff",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "1b2d0250-06f2-4de9-baac-2f92e02b37e6",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "ba6f18db-0f0a-4bf2-80c9-132944cea9b1",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "d57e86cd-fae8-4e20-acf9-ae5ea7bd0050",
+                "name": "Diploma in Engineering",
+                "code": "DIP",
+                "departments": [
+                    {
+                        "id": "9e4bc751-9430-46f5-9225-5fb5ea2e243e",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "29840c73-3c2a-4d8c-87fc-332bee9cc329",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "6e66c842-6918-4b43-8d17-59e5afd6c9db",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "e0f278ed-bd96-4c8f-a89c-b3a7cbc9cb7a",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "88d351fd-db25-4598-8091-b550592d57e5",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "e839f754-0e89-4ddd-a8de-f779e6117eb7",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "46b5c832-0f20-41e6-9f82-877b6e5373f1",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "90c52596-e940-49ec-9235-334e73240de8",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "a97173e0-4fe0-45a5-bd84-210b1beeba0e",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "76d46fc6-eee6-4522-8fc8-3e3f68dadb9a",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "b1ca5b89-df37-4c19-9437-1131c71c7929",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "4c39bed9-8235-49ce-9947-369b0de65209",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "7fc4d10c-f318-400c-a894-cf179499c6f3",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "e3819855-5cd9-4c3f-bee1-84f6a4d7953f",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "a78a7e4d-ce14-405e-bbda-420e42504b3c",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "7dce41fb-f38a-47b4-af4d-9c9b29a21f73",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "2f20f2b7-0e47-4fa8-bc5a-9c38acec4821",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "d5f126f5-6c3e-4bb3-8328-ab921384057d",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "a0740ad2-946f-4bd9-869a-b4e384ee108c",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "b415f188-be5d-464b-a199-628bffc84e7f",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "6ec17daa-0dba-4f70-9833-718ad3b08d73",
+                "name": "PhD in Computer Science",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "d24470ff-1231-4e44-bbbc-69da9dc7a84d",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "7e1de72d-6cfb-4a45-80a8-86549460de33",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "0fd67664-a925-42cb-86fc-c74c225e328e",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "fb069b0b-5867-4839-b6a5-46682cb01b23",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "cee22029-9af3-405b-a415-ef8f26b5b24d",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "41abd57f-6c48-4bb0-987b-db93646e6700",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "f9a02ac7-a518-4bd5-91ea-04a526751d58",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "6183793c-74af-417b-b09d-e9edf56c40b0",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "d9e4739c-5ef5-4acf-9ec2-e871a548660a",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "9ac205f9-72e0-46a9-a520-f4b4f3496a3e",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "b9091455-182d-45ac-a232-1f28123a5942",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "8bfcf68f-a76c-4455-ace7-7b2979b17177",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "9512819c-7727-4ac3-b30e-b2f285eabfbe",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "9af0da6b-d86a-4ef6-ac50-598dcbf0985f",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "09e8e6e8-c209-4fdd-868b-3d7ff8b8c3fa",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "dc5685bf-1863-41bf-99c3-c54ee79b9f53",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "02e227a1-bb6c-47d5-99e6-6a2b33df619b",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "a1dd07a1-7146-4466-ae78-a199f6956918",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "5acee6ad-e2bd-471f-a6cc-4259e34e03d6",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "52825ce8-420a-407b-871a-266ef269251b",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "08d488f4-1506-4562-bbb0-740d6119ee56",
+                "name": "PhD in Mathematics",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "0d62c73b-18f1-4da1-bb29-951a2608fd5a",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "c135a72b-4343-446a-a0f1-da7c98df3d7a",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "285ba568-bc86-433a-9ed6-298fce605899",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "9aff8d8b-f484-4c30-8f73-ae460f1765ab",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "3a23ecc9-8541-4ee5-ab28-d10d2aef3f09",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "e2501999-9ed1-4f2d-aa4d-cc142570e005",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "9c349cff-835c-4dc5-9dd5-8358b48b1a5e",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "b7c569ac-a063-44eb-94d3-9e0bfc40562f",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "af2ba624-49b9-46ff-bf7c-a8b2ac703faf",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "e2cd15d1-091f-4430-aec1-d46ebfbfcf34",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "320a76bd-71c0-4e43-b17a-e90af2bbe9fc",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "91c1bca3-241c-4ff2-a54f-3ba087f94138",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "6a941d53-7b75-4042-a5bd-eddd68dde84f",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "a98a17d8-d09b-4699-92ab-2bf421bd6c08",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "9bfdc837-4f90-4933-b9e2-0d97b17b1428",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "89b4870f-794c-44f3-947d-b14ad96fc577",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "1dc5be07-bd00-4e29-9392-7bd1f2b58440",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "30bb2119-38ce-4947-ba70-810bf56461c0",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "efde2fda-ee7a-414c-b637-f46dfc8ca1f8",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "5ad39049-1e3c-49bc-8a21-62c496d94539",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "75a42e6b-0474-4b91-b6ac-e4b7cda6f979",
+                "name": "BBA",
+                "code": "BBA",
+                "departments": [
+                    {
+                        "id": "3ff18e16-fbe5-4248-a687-c283efc74799",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "17176fc7-60a2-45d1-8553-6ba624b49566",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "f165c508-0fb4-421f-8053-f4868e2b690e",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "0adc008d-7cf8-4dc8-98fc-3d3b32a3daa9",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "93ed89b3-0f63-461a-85e6-990ff5a976df",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "5eb719fe-0db8-4d3e-a1af-defab576af71",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "de2eeeb2-dd33-452c-bba7-ad8cd77e5a42",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "a7fdba93-0c5b-42f4-bb1c-0ec213ef1649",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "275ae732-0a75-4b23-9e9b-98e6435269d6",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "b70b9a33-b9cb-4f77-8d19-a60e3c4da5c0",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "9ebffe32-d2d9-43e8-bd37-55e593dae9f8",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "1beb66fe-3b9c-4886-b964-01f70de4149e",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "00b0c77b-a9da-4a49-9fc4-3b318cc0c5cf",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "30fb4a75-e33c-4cb0-8363-cab86b30607f",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "aa838162-ec63-419f-9e30-bb82300d014d",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "b9b094b4-1933-4ee6-842c-7a4deae41492",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "0f60ab27-c989-4391-85f4-5cc526f790db",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "dc059100-0f0c-439d-bd89-d6e0177144b9",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "b14a28a4-b42a-4c24-865b-ce9e5d13321d",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "9f7c9f47-af12-42f7-9fc2-ad7f1f787d96",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2aae536a-cf60-44bf-9e7a-cedc4a90a6fc",
+        "name": "Postgraduate",
+        "code": "PO",
+        "courses": [
+            {
+                "courseId": "620b8534-3698-482f-8d07-c7fbdbf2a906",
+                "name": "B.Tech",
+                "code": "B.T",
+                "departments": [
+                    {
+                        "id": "42b1c585-4cd0-4d89-bbf8-baebd0643cfa",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "9e96c73d-12fa-43ae-9168-3bf4d2f462fe",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "6e78efbe-dc9f-46cf-8549-003c190dbe8c",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "950db7b1-99ea-4b63-bfe1-158f861869f8",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "8e5ecb63-c9d6-443c-b43b-0e087309d0a2",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "34619bc4-126f-439b-94c9-6684f8dcb481",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "b61c5e31-c895-43a3-8623-f576b2159aed",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "99076de2-0a38-4de4-9793-b94a7ec60baf",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "00776bdc-9d7b-4a7b-b305-dcf75e41f18b",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "09df4d77-68d5-4270-940b-bb507a7959ec",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "1f6e6f68-067b-416a-9ef3-b8af5d0d5473",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "3e0947b1-fa35-4c23-83c6-4eb920dc792a",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "e79afddc-6763-4a4c-aead-832178dbc69a",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "79e5d31c-13f4-453f-bd74-110ef029e33c",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "d245a99e-de5a-4581-b6fd-9389b9406986",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "bddb59ad-07fe-4059-99d2-026032568861",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "24b11ede-561f-4dd6-9fa1-ad3b2da5b18d",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "0104e157-314d-498e-b793-af46fc99e494",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "ff45b054-0f31-441e-808e-a4d802e26f22",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "9922f6bb-b8de-4edd-b12e-5e530e8c0b0b",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "505a1151-a714-4fb0-95ef-10f76a7ebb14",
+                "name": "B.Sc",
+                "code": "B.S",
+                "departments": [
+                    {
+                        "id": "070226c8-bb34-47f8-a344-2dafe511b525",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "093c8c6e-977b-4f27-9ed0-a9e3db16f64e",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "9b7c6b11-2490-433f-a5ef-d2a469d8ff71",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "8b008005-b545-4b7a-9217-8500484787be",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "c80f3e71-d571-4853-a877-aa5090e3fbd0",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "0368150b-341d-4ce6-a902-0549f9617b43",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "be7c880d-4bd6-41b7-94d0-7f70ff7a9150",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "2d575092-2be8-4c30-b4bd-1f5f522bd106",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "4ba42f0c-a09d-4998-94ee-58d14998e979",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "725d70b0-ae3a-420a-ba8f-b386b243ccc0",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "3edbc4ab-be0d-4226-9f34-0942cace49af",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "77a425cf-03ef-4754-aad4-a0a040ada27b",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "93890ddc-3da5-49a5-b5a2-26bcdf27e778",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "092fa77b-a99c-4fbf-9295-09b130cccb45",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "74ede69f-dad7-4c2a-80bd-2e3b25a461e9",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "517c81c7-efaf-40b1-ba73-9ea7177a8123",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "360f2cd6-24ab-4261-b3f0-4ef9cdc17519",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "7d17df92-8bac-4eed-be1a-8b36d4d39e77",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "572e5845-da1a-49c5-99c4-a5f64a8d0cf1",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "676fc00e-719f-4a5b-aa5a-478882a41b91",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "ffe62960-53f1-4b17-882b-6ae3ceaec1eb",
+                "name": "B.Com",
+                "code": "B.C",
+                "departments": [
+                    {
+                        "id": "3aee9662-8021-4fbf-bf16-89cc424b51c3",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "09b8017d-be41-4528-a3bd-9b1199f9f26e",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "cdf9c408-94a1-4aa2-830a-5cde75c36796",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "79df89d7-cb9f-429a-b4e4-d9c280758d4e",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "4a798e20-8dd6-437a-8a7d-6291d84f623a",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "4ba80ccd-063b-463f-9df5-8cf9c5555eb7",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "87644594-9d61-448c-9c76-ddd94b88a270",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "567b074a-bca2-4e92-980c-c5695dd3b7c4",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "aa4ccb5a-fb5e-4eba-b468-4bcee812a93a",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "32d3ecc5-26d1-4166-89fe-11de2783b4b2",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "cd09f275-2ade-4eca-9833-2a3c1dc09cf3",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "9e526c66-04ac-46e5-897a-66c58b76fd0a",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "b3087a57-5d78-48b5-996a-c44259aff5fb",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "847e9e0c-0375-4672-a2bd-7a99c32af33d",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "36f8fdb4-986b-47a2-bc9e-cfd96dc024ea",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "3ae710f4-47ec-420a-9118-e41272bc55ce",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "01e0dfdf-8095-41a2-8c45-ee65395551be",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "b214d55b-a8e0-43f0-9140-9d82558ef2dc",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "b57d0413-2384-48ff-8e10-d1243449422b",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "d25660bb-cd1b-43e8-8ca9-b907f72ed8e1",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "f67c5cb6-0f6e-43a0-aafc-cf7932d61b97",
+                "name": "M.Tech",
+                "code": "M.T",
+                "departments": [
+                    {
+                        "id": "e2d48b72-13d2-4b50-bb8a-bd4c175b3813",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "e96f9246-97be-4db3-a194-f9ce5ea1f9a2",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "e919906a-f55b-4cf7-9465-5e80f8b694e5",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "7fdeda05-3fb6-4d68-92d5-0aa0177187f8",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "3348bf88-669e-4fcf-8f32-7504b71aab6c",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "25dbca3f-8190-4c72-a510-c257cd074aba",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "d4fcd3fd-5924-45ce-9dcc-173485c8bee9",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "7404b269-0d7a-4f41-acfa-6703d6d227cc",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "05903bc6-dd0f-4f56-ae9c-fe8d5b42aa11",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "5bc653f2-6ad9-4558-926a-1782d9a34d72",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "47d77ba7-ebbe-4402-befd-dc0bce9defab",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "946e5670-c44f-402f-a0f9-a45d901f33cc",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "39d33d3e-9b8a-438d-a688-2f59750e5554",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "d8dce168-7d2e-4507-99ce-f953d823cbfd",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "f1b565ea-4a3d-49d5-9cce-30b10d8e1f88",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "e8e0ba55-692e-4f11-8ac5-eb17420b5715",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "fcd71f20-54b2-41b6-a4cb-c0f3b23777f9",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "0c569a4d-122d-4ef5-be71-c1833f4ee23a",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "e0b1eabc-9ff1-45df-bc7b-83d561a34a18",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "5a71e1bd-a557-4fee-ba69-c30a45afd9c8",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "4dd59e55-6d9f-4074-bd83-9d72dcf5e414",
+                "name": "M.A",
+                "code": "M.A",
+                "departments": [
+                    {
+                        "id": "51d91623-c60d-476d-9bab-2bfe059cf120",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "15cb8875-75ad-4e39-87c9-995c93754a46",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "a56ad2f8-6794-42ed-9952-2a558df5750c",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "e5376ca3-007a-447c-9e35-ba8b88aa8c96",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "d3d8d745-73ba-491e-acb8-ad7d89bff551",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "e3b3c80b-2e1b-469c-ae61-8714228e3651",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "edf281cb-5e5c-4320-914d-4e1010cbf557",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "f9a695bf-8d98-48ac-8170-1baf6e4439a2",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "f60000f0-e466-4b26-9438-a11506c467d5",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "b4a47c2b-9965-4dbe-8c0a-613ef04e1003",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "bce84492-07a6-4129-88fe-ea70acc44e72",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "c2e1faff-e489-4eff-87c6-0fdc4443aeff",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "55eb9999-dd21-4e15-afbe-74a1d3a27106",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "64b16a37-fb22-4a43-85e7-fd562bba28ff",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "738b0662-b625-4211-8007-fd86365d744e",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "755e55f7-f216-4d54-9840-040b24dfe772",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "809c8b61-532e-4545-9b76-3e7179398c30",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "9ae3917e-f687-44de-995a-e342986e08b0",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "398ecb61-0707-4bef-a76d-b17aff242e09",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "ab666104-5e79-4e7b-a03e-a97279dd79f3",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "3943c9c0-22e0-4f0e-815f-bc0ef0bdaae9",
+                "name": "M.Com",
+                "code": "M.C",
+                "departments": [
+                    {
+                        "id": "983de868-d483-40a0-adcf-85bea4b9007d",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "faf0c350-4dda-4a98-8eda-6405ffc76a08",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "31166efe-84f9-47b2-b3ec-bde434c87813",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "2d9d18d4-befa-4cf8-af60-683e7d0f6223",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "cdbcf702-607b-4c9d-ad19-b3aaf9d8a238",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "598daad4-a30b-4b69-8fb3-0cb16114ccbe",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "38f1a47d-84e0-4337-b20a-867b5e787bbe",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "11f03d23-243f-4324-828d-059fbce23e2b",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "a79d6d81-7db7-4c8a-ada3-da5665b84263",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "72dce5a8-652f-46c9-8500-6b6e89b57f05",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "70f80faa-2231-42a0-ac59-4f84e47a904d",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "ccc2afb3-1954-423f-80a2-e9d814218014",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "c0370231-3d45-4eea-ba2b-1468a49bd59c",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "280c7b39-140e-49e4-8ba7-f262050c8a45",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "71ff6ede-89fe-46a2-9240-a82baf2c13db",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "b77f5a8b-ec0b-4afa-99b0-ac0eede042cd",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "77d9302e-988a-4348-8426-faeadb349693",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "b6cdf53b-f94d-4f53-b2a3-016c23008d53",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "72640de5-f787-49d8-a03e-7eab17bde0fe",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "52a609a4-02e9-474a-b080-51d96bf7185e",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "1ed97887-1cea-4bac-aad9-5831f502a263",
+                "name": "Diploma in Engineering",
+                "code": "DIP",
+                "departments": [
+                    {
+                        "id": "33119bd5-9e58-4c88-8015-473d1ced73c2",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "c9754e8a-95b5-4251-8c50-8bb6d428b928",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "17b95f2a-d18b-47b5-849d-461d09428bb8",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "8a1993c2-d4e7-44a0-921d-19a1fc565683",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "7dc12a1a-6642-42b3-ad49-30367de70f91",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "2ce30e1e-74f2-41e0-bf60-b7992cd8365d",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "8137b393-87ef-4932-964c-59e3deb8ef32",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "1c9605be-ce63-46b8-8944-51cc5362ae88",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "eca18f27-531a-4c53-a97f-eefff6618976",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "3bc9113c-826a-43f3-8a2f-df55188e62ee",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "ff7225d8-8f55-41cb-8513-0c46490a2279",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "772a9725-b8b6-42bd-966c-136af28c99b5",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "9230721b-238c-4a3f-a50b-45a8494d259d",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "7a30cfc3-3cdf-4346-850c-bc47245a5aab",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "6f153c24-48af-4a4c-a67e-425b9cfbad20",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "b5705b4f-436a-4775-9d46-d19db464e3a5",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "a8f59112-1cb0-4a96-8a75-49e03f7f3252",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "bda826ea-fd6b-4685-853c-02233ab1de80",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "84a910e6-ead2-4993-be2c-edb261f65416",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "30acf062-45b3-4eaf-a744-1884423db44f",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "40b9fb4f-9e28-460d-8146-eef264cde222",
+                "name": "PhD in Computer Science",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "93662ea8-c07f-4f82-b1c5-510505ecdfe8",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "b6d5d8b4-cd9c-41e3-8b00-a716b456b449",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "bf6fc360-07eb-4abc-b7ad-0667a55bbde4",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "62fe006f-47a0-41b1-91ca-f779292d8e8b",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "9a509554-1f3f-4b64-ad89-3d44a747ad73",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "ba92be50-263e-49b2-87d3-e7469411743b",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "58c20b96-a511-444f-bae5-b90fcb4cedca",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "022d2f98-cd26-4091-9a0e-df6d5e374992",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "710688c2-6a9a-4f64-9814-6f41de2997be",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "230c400d-592d-44b9-909e-d319d1d3030f",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "674527bf-dd5f-4d84-b262-d48034ad4198",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "b8c6a341-bec6-46bc-8d47-d49388689f57",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "162ba380-58d9-4558-8817-25d32d52ecd8",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "fb20eb4a-3eef-4f35-9ec5-4649d7b93e1d",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "afcff2bd-d837-4a7e-a9cb-63286051eeef",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "ac01d619-c62f-423f-8906-9d4324b2c579",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "194764dd-8044-4568-9ee9-87a7ea762f55",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "565ce74a-f1f1-4f1f-8455-99eab11ff2cd",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "820632c4-94fa-4765-b359-0007e83b4f8d",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "a5026ac9-fc99-4a4b-957e-7bcb29ff1ec8",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "45111b5a-bf50-4416-aa31-fbea5a4bd61d",
+                "name": "PhD in Mathematics",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "81a708e2-dff0-44d0-ba50-028e186983cc",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "06186b0e-f0d9-48df-9f20-1b8330f2a1d3",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "2d07b74c-28d8-425a-b61d-a8905f5c9d8d",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "f6285070-909e-40fb-b083-246aa34926fb",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "aa981111-4bb3-45bf-94e5-ed248f3284cb",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "cff36050-7030-457f-98ee-a5fd6bcc42db",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "478cb625-edd5-4cbe-ac40-06dd20af1a2d",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "eb448e4f-8122-4141-b687-0b26a9aee2b3",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "a602f20b-0fab-4f4b-945b-e32962f783ea",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "82c0d8ce-fc00-4c98-b1a4-383176518ca1",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "f7660e75-bd36-4b61-98dc-9dd3779b85bb",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "c6dbcc95-5bd0-4d94-9caa-0c0ecd220246",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "852712ee-70a6-4af2-b3de-33cba848ae76",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "6c6d80a0-6c2b-4294-a13a-1f77c1f6c03e",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "e5cd5aae-aa93-489e-b151-a42f01a7d987",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "c7b3fdd2-c77c-4656-b9dc-cd32c0d5d22b",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "60195de2-b22b-4abc-9ebd-d3cec2c71a72",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "45ac4f09-5f65-4e7b-8c5a-6d9dcbf12478",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "6ab90a16-d0e0-4a98-993c-8098f3f30fc3",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "bc4d6155-ae94-475d-aac6-d6703a35bb65",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "30f0e7de-b322-45a3-8708-f849726882ce",
+                "name": "BBA",
+                "code": "BBA",
+                "departments": [
+                    {
+                        "id": "d3bf17ec-db97-4adf-906e-953cc15dc5b4",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "c6475995-0c5b-432e-801b-8e62a45e9187",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "3b901fe4-e7ae-4b08-b4e7-9df501115e41",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "b63a2bea-35d1-483b-aa67-668558003863",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "2457c5d5-e1d9-4fe8-a20c-af5866ce8091",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "48426e83-3f41-4a69-a9bb-e4b9be14ecc0",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "ea7c2ddd-d24e-4d2a-9c05-33ae51e7bbe5",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "8fada9ed-ec08-4f36-9cc7-0cae8c6a1e0a",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "4d18f062-256b-4dca-a0c6-3da238dd1620",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "6a4729c0-b58d-4234-a18f-8e38a1985ef4",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "7797f0d2-251a-4e75-9d27-88a54e6af003",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "c992e127-93c1-412a-828f-ed2e55b8b597",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "5956a56d-64aa-479e-a19f-892ffb28de0b",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "14b9b224-b9ea-4197-b40a-f3d7a94ca719",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "1b26949b-a062-4a89-97e1-61a8b81ca38b",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "62e62b7c-dbcd-4b3a-8f3f-2f46e6231162",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "ae4ec08b-38a9-4424-962b-84b161a776b2",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "c2c93afe-7a01-4386-9d2a-11806f80e402",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "acc16de4-5634-417d-ab5f-479cd4a3a971",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "38459d2c-915e-4b6f-89a5-f1e8fd6bd4fa",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "74f4d686-73c8-417a-9ac8-e8f367e61165",
+        "name": "Diploma",
+        "code": "DI",
+        "courses": [
+            {
+                "courseId": "6738b378-28b8-4639-a041-82bbd7de8238",
+                "name": "B.Tech",
+                "code": "B.T",
+                "departments": [
+                    {
+                        "id": "4ae5dfff-5392-48d6-826b-66ded32f7b60",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "b0e5e41a-5065-438c-a908-5f805a4c50f2",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "d4c5650e-4f14-4be6-a29f-d414ea054b1e",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "171c7c68-8214-4829-8045-a85a9915f38c",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "70049f6a-a44e-49b9-85fd-2c5ac408c50e",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "bb1c6a6a-4390-4c1d-8982-0769efe8fe96",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "44977b90-c426-42b4-84d9-a07e33dda27a",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "3b29e26b-4c7c-4a92-b76c-c8147188368d",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "fa46c9e8-884b-48b9-bc8d-11297c706640",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "4d95773f-31e0-49a9-98ea-94c871c05ca4",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "305fcd4c-645b-4945-8a51-029f45973906",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "a2f9434f-75b4-472f-9c02-4f65a698f64c",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "8e7aca58-1b76-4a3a-8af5-26b1a0fb2e5a",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "451b8f6a-4321-42b5-9f15-e2b0fe8bf209",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "fb1bc291-1241-49b9-8489-a658e1ab7d58",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "9cb9fb4b-e3e1-4c7d-b109-0b5db3efb207",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "63a0a138-6dc2-454f-97fa-f5131f852cb0",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "c222674b-4e90-4f68-8994-aa2bf92829fe",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "6dda428f-88e5-41bd-ad49-18515e44fe94",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "b7f5b23b-4de5-4fbf-a543-1ef281bc3718",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "4d8a1a29-b7d9-4e34-a368-8bdad9db8f8a",
+                "name": "B.Sc",
+                "code": "B.S",
+                "departments": [
+                    {
+                        "id": "b20a8986-c004-4244-90cb-561ae8c6f259",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "8ddcd6f4-f4b9-4c61-9f73-c92e1639825c",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "ee5339c0-e755-4b54-99eb-5f76db593085",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "e8162fa0-8019-4113-8419-205da8e5f0d9",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "d1814730-918e-4b85-af3e-bf9c3cb6c5f4",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "a03b0c79-1406-4ebe-9d50-2195618f557f",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "9f56e9fb-6262-4e89-b41d-ec837c34bd4a",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "33aefa8f-f37c-4c4e-b923-f35473bbf80a",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "7e82d112-13b5-423e-aafc-4b7c67ae8c46",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "380d2332-6901-4e8c-bf87-d0b570c91852",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "4d81c69c-d440-4c2e-a4cf-034420d90428",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "149fb485-1bfc-47b0-a2e9-ac27b76791ee",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "93058820-2983-4b75-87b8-6b2810aa52c4",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "bf2040e0-f644-4946-bda3-46218c8b820b",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "69f865f3-f2d2-4438-9b14-8c672424d55c",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "3d309f80-b987-4487-9e49-914372cb38ca",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "c62a3e40-589b-4b24-94cf-bfd094e46a52",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "40908b45-1d03-488e-896c-ef9acb339a09",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "8e123c14-fb46-4924-88ff-8aed94907a28",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "642410ef-7af4-4dc7-90fb-20168d82d041",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "f2ae3b23-5a4b-4e92-8682-4b50df239ece",
+                "name": "B.Com",
+                "code": "B.C",
+                "departments": [
+                    {
+                        "id": "78a0f2fd-5c60-4e9f-bd7a-2b3ae1abd1a2",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "8dfdecd5-b5fa-42ad-a739-d75088b6df73",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "c32d3e52-a1d6-4f27-9726-596a9cf40d96",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "d1f87a7c-052b-4877-beba-5303ec8cad01",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "d4a8d241-f27c-4679-9917-143f401f35a2",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "d9f5ad47-9b60-4fef-9be7-961c3245f982",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "ec3835d1-19d2-4cf6-8507-0f09bfb72529",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "ad082153-d744-4d4a-8461-575e2a594c74",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "f13d14d7-0536-4f55-84b0-84803dca25c2",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "0e2b6885-d643-4e6e-b3fc-e12b89a9c29e",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "6bf815e4-6a99-4b7e-af4e-ebc674e66b86",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "6b8d413d-b10d-4fe1-9c28-634a9cf82b06",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "50a69fd6-0033-4133-a7ff-3c9151ed47f9",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "c72acaa9-e252-41e6-86a0-5093acbf623a",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "642caf33-2170-48f0-bf8e-0a3b05209c35",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "cfbefbf8-6744-407e-80bc-13a0c1eb9cd6",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "a4fc5bb3-ebb8-42bc-8501-995b169b321b",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "880ea468-6e2f-46f7-a4b1-79f4db3cb7bf",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "38b2b91e-9419-4a93-8a77-e236441dd225",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "73382800-7edb-43f3-bb56-f444ec8c95f1",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "4e4602f8-abfe-4da4-b41b-ebbaa96eff22",
+                "name": "M.Tech",
+                "code": "M.T",
+                "departments": [
+                    {
+                        "id": "db89cf7f-efd1-465f-bd03-06d35a9684b3",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "2493a8d8-e168-4ec3-ad7f-2554aab95f77",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "a4dfbfbb-885d-4077-b4b2-a5d3e454524e",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "27f21ca8-5392-4c2d-b78c-529042f68764",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "abdfee58-c5a6-4e6b-8d05-2b9b25db0551",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "d54e28d3-2b53-47ea-9b99-53eb900c6992",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "ec6eeba3-ac1b-44aa-9f3e-7f0bc25683a9",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "fa501924-0f4a-417c-9e9f-87a457568143",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "b8c9578a-7093-4771-997c-e8f51fd7cbe3",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "c889e189-d24f-43fd-a6e7-a9251797f2b8",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "37c5dd10-9a35-4f4d-9144-e0ea2cd4402b",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "651d3dd5-700f-4bab-a02b-c8160debcb0a",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "03250c93-f6c1-42ae-9109-cfac90c59979",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "2f7ca9e1-0bad-4831-b6d7-2402a3c39918",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "b864d771-ec0b-4fe4-95c9-8b466d9001b8",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "84b998e9-10bd-43a4-9b88-ee00b7f76c3a",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "6f172815-0a21-4401-bffe-48aac2342e16",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "ba523706-74af-408b-90ed-f027428c743b",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "621912a4-97d6-4750-9cb2-0508fa0e2b89",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "6cd808a8-72a1-44f1-9cd7-919a60979c69",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "343b4c20-b0a8-4ee8-b7df-4544ef999023",
+                "name": "M.A",
+                "code": "M.A",
+                "departments": [
+                    {
+                        "id": "3a3027fb-cf53-474b-926c-d5d188f7a0f6",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "57cc234e-7d78-46fe-b70e-368daf49f2af",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "1560728b-a320-4e65-a45b-ad98a263892f",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "c35cbb86-74f0-4e39-a03e-3bfa2439cec9",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "b1b61d53-ddaa-40fd-a4cf-dc265aa9dfac",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "a075be10-9462-4c40-9db3-3a609c1dde9c",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "9e19d4b8-a771-49ad-8b05-54b503ec206a",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "162590bd-7a9e-4703-aa19-219d345208a7",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "5bb334b2-6035-457b-91d1-07d15c0f16ee",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "4d3c4d38-97fe-4f14-a158-2a702e01a330",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "af7900b9-ea76-4336-a69c-3cd6b6b17def",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "304a37f9-d2ab-4aff-9582-6d400dfdc10b",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "759759ee-9027-49cf-a40f-bd19be273acc",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "4d451e97-041c-462e-bf9c-c75a04228a41",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "75848433-d101-4918-8183-34281a834902",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "ffe64972-3cf6-4794-8760-611c91cdfba7",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "b431879d-b706-41a0-9fcc-023ada658e17",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "ebd6dc78-c9ca-4520-937d-c387817ae162",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "65f43419-a5b7-425f-aedc-e71962876572",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "7836b3b3-baa1-4280-8e86-408d11ab35f3",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "22f9f489-c700-405e-b1cd-a2ab466e5e31",
+                "name": "M.Com",
+                "code": "M.C",
+                "departments": [
+                    {
+                        "id": "be27fc30-3666-43d9-9f79-b2c2adf004b7",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "0c4fdd45-fc90-4666-a1da-8330de33e80e",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "071dc34c-b661-4d0e-87c0-ef6bc416367a",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "abba75d5-c6e2-4792-9dc4-428da43b118d",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "21e27929-f58e-487f-9cf8-6ef7c362ac87",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "46a48ecd-6859-4bed-87a9-39abdfd2800c",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "aa53cba8-1f6b-4118-ae4e-a0c46f7625da",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "e6657f7d-4911-4b96-8541-7540a1d63d2e",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "68ebab6c-8132-4075-8719-b47bb46be68f",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "9a1ed48b-f6bd-4fe4-ad0d-7472022fc684",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "81d6d9ca-73fc-4393-adc5-981ddaf9f09e",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "c42df9f1-aec1-442b-a6d2-1a17db419328",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "7ca28e1e-6404-4b42-9681-05316b75324a",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "1bb26cb1-ce3c-4c94-a564-1c66a4eef949",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "8d7166a8-202a-451f-a43f-f335ced67ffb",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "a14d0e8b-f959-4c9d-a06a-80c5657b77df",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "938da4a8-b0c0-4998-96c1-a6aba8deec58",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "f842d135-4d55-4545-9a5a-652f9f1653a1",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "7910b08b-d660-4a71-83f2-eeeb30863d87",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "0a63b3f9-2de2-46f0-81e4-3e0f13cf6c98",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "5ec80816-1190-4dc7-a060-10df5ff56ebb",
+                "name": "Diploma in Engineering",
+                "code": "DIP",
+                "departments": [
+                    {
+                        "id": "cae47d13-8492-40a2-858f-48ec805f1be9",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "2b4379d0-4008-407c-a1d0-abc9599d59f1",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "2e313d7f-c79e-4cd4-91b0-d077c233dc44",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "9699dd4a-11ea-46bd-b802-690952f3db19",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "137cdcb6-3325-45be-925f-de1c066b2d97",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "e4f8d890-018d-47f3-9b9f-7aa475b371bf",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "9e0d9c0e-46ba-48e3-8199-311004a3cbd1",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "57ed7d09-0de5-488b-8e49-775db0152a80",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "5fb6107c-b387-4d2b-b78a-8e3d1f40d457",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "c1d253e7-c04d-48bb-8dbe-9388202e85c3",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "a213518b-5279-4ebe-a830-6d4d3885e72b",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "79c3688d-c1db-4559-bbb1-9bcb87a0c2ff",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "188f8fce-b3a0-44b0-801c-fd9dbcfeb65e",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "0491165b-af9b-46a1-b16b-1e57b31c6977",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "96520a57-b24a-477b-a395-40ba019e8076",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "ce77f5db-abb5-4471-ba94-b1e5eda3ca3e",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "34debbcd-36e4-4a8a-b725-9c9edb040ba3",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "2849cb25-9257-472a-bc5e-8133b1d80042",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "4367e19c-3aa2-4086-b964-05846bd98ae1",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "df58b559-d6b2-4881-8e6a-9d1c8f8bf86a",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "c577b05c-e6bc-4821-b737-fa770b6a733b",
+                "name": "PhD in Computer Science",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "92df33ab-2dda-4d55-8eb6-499378b36268",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "a393350a-129f-4b7f-9f92-1ddc99b8d7e0",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "2442895e-3001-4b34-8d2a-20b7b65ad2bd",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "9478cdbe-f497-4914-b519-a654a2fa7622",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "3fb19e95-2526-4c21-b5c2-9b71bdf074ce",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "2d1b277c-77a0-41e2-8d7f-44d2153d4f7c",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "c6a0695b-2a4d-4afc-b341-bc1e00e45d8c",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "fb5e2fdd-6afd-4655-b720-b7824ad49f1a",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "8ba12b45-f157-43e3-800a-09ef51f8973f",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "e22ade33-cbb1-4022-872c-c35a110b8054",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "7a43b23c-aa7c-42bf-b985-74f25b23badf",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "bed6e8f1-0063-4fa9-9ac7-4cd9a94f83aa",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "ad1ca2ea-6806-40cc-8cbd-77afb65912fb",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "a7aeba49-17ff-4d5b-ab29-f0350a5d672a",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "2a63f5dc-3c3d-40bf-bd6e-b6452b028e3a",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "ba9d55aa-8e92-49cd-804d-24dfdd1278cd",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "9f61d4e6-c7bd-424e-9778-11b35684fd50",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "7262db29-7a21-4589-8d57-ae2b4c8da1e9",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "666de5b5-5de7-4a19-abbc-dd84ad5c45fe",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "cd6aedde-9911-41cc-a02f-414524bc447c",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "0ab3b65d-aef8-43a2-91b2-336b1ad58326",
+                "name": "PhD in Mathematics",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "931bb263-279a-4e31-b492-293938787e32",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "f74b813a-7719-473c-abc1-1233af3d90c8",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "45bcbe1f-742b-4c04-a04f-ccaf55aa6a88",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "2ac98a58-8cd0-4468-b5b9-fdba07fe3531",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "48f0319b-2cf1-4d12-9ede-da84ee1f41ab",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "b65307e6-6e7b-4f98-88eb-adfba2b8ae1c",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "4eb258d3-3228-4e11-8897-8b6a4aea1cd9",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "9f8ac9ac-470b-4383-9dcc-dc3b8fb462ff",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "dfaecdc7-be62-4c3d-9ee8-3218ded27917",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "2f790b0c-3084-4086-a584-ea33f2830f19",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "2a616712-327f-4eae-8c87-0b79d5870e92",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "20fb58da-7323-430b-b582-fcc0de2de615",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "0019d85c-01b0-4008-a3ad-0eebece2f4b7",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "2e28451f-fdac-4028-82ba-63d9a565516b",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "485829f3-e426-4ef0-bc73-77cfb32a0acc",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "d2dc1b17-8fb2-455e-89d6-6d597b3fe6f1",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "b41410fd-d6a4-4b41-8c0d-f32b96b14e43",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "a9257ad1-34bf-4a09-bf16-d3a45ec77315",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "d8fbd406-d41a-4501-bd8d-d3c932542628",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "09aef942-4203-4594-a28b-c8d961e48488",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "697bfdad-b27c-4f82-bd4e-b94ebdda0c07",
+                "name": "BBA",
+                "code": "BBA",
+                "departments": [
+                    {
+                        "id": "f71a4ca5-5c2f-433c-8861-386d5f521779",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "8782ff2f-6dc6-49a5-8c09-119a0768de37",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "07f7cef3-1375-4124-a1b7-c27bd1e09495",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "fb4ae80d-31cb-49a9-afde-726a709281ef",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "87ed52c5-6001-4455-8e17-75297dc2a418",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "5db3bbad-00c3-4164-bbf7-be0a3f7861f2",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "85eb1f14-082a-4661-a621-f25d722f0021",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "3d8fb5b7-198a-4b7b-a864-b6aa57993287",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "4e8a826a-9bac-4f5a-9929-5cb29ff26111",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "ccc1eb15-2a09-4b21-8398-01ce4fc3e51f",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "4d191343-f78e-48cb-a126-46457b0925b0",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "d8b35eff-0aa8-4552-93b4-33d73e6b2959",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "19f8340a-d8c9-4c19-bb48-b2a1e6a68a7f",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "0698ced2-fc4e-4f53-8530-f93bf13435c6",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "0063607b-5187-4636-a1db-0b842a33330b",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "8eae589b-a67e-4295-8f99-a47eda869b09",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "88bef4c6-bc2b-432f-ace6-a6046f608c02",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "50f150fc-953f-4571-b6eb-cad3e82cdba5",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "19078034-ac1c-4ebf-9092-595bf5caae45",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "09945591-1e13-4f8a-bc3a-164e5d9fdeff",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "cf53676e-21e8-4062-aa96-9feae7830f47",
+        "name": "PhD",
+        "code": "PH",
+        "courses": [
+            {
+                "courseId": "92310143-b3c1-4fd3-9a45-839a261f7b6a",
+                "name": "B.Tech",
+                "code": "B.T",
+                "departments": [
+                    {
+                        "id": "253d7918-d7a2-43e2-9d90-414562b147d8",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "06681cd7-5274-4124-9e0d-326384379e46",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "74d9a92f-2958-4d8d-a4da-0e8f63b52a7f",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "b72b2d69-e24f-45eb-9809-316c088fb0a0",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "f5e66a2b-0d26-47c9-af33-39af45e68b69",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "8b9dc7b9-a263-4941-b0b4-7256a9ec82ce",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "f3c58de0-2618-4d70-b105-0d8bc7e91a48",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "e0aeb4e3-c82a-41b3-9954-76b1285a85be",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "136755bb-173b-4b9d-8fce-0a72b6009cfb",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "23842e99-c739-4fc3-b0a3-c71d6bb7b65e",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "58d06a34-9bf7-4237-9ac6-e254abe88191",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "076bc0c3-2a21-4558-b05c-7e92ba6d00aa",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "007e5415-9ee1-4704-b82e-757fc2bb4ae4",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "36016dff-a936-442d-9361-f73608cc5095",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "bd1723a5-5aab-4461-9fec-f6ac7d4200a3",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "a0aecb4f-4ec1-415d-8595-7494d493b9f5",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "68516c3a-c0ed-4232-9da3-05bee39afe9a",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "f15c356e-8072-4fb4-a591-067b5613ef1e",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "463b37ba-0464-4c92-ac1b-ed43c65b8f92",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "f675616c-ae84-4a8c-99bd-dbf2860ad382",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "60575cd6-44f8-4b9a-9563-6a3e2f1f0345",
+                "name": "B.Sc",
+                "code": "B.S",
+                "departments": [
+                    {
+                        "id": "8d41350c-5a87-4f35-b0bd-94baa3aadd05",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "3b09804f-91be-4b0c-a1e7-64f6fa63d098",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "0fb73778-43ed-43fc-89bd-e8f69fe232c4",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "4acecea3-6c59-4150-865e-ef3c74a1bcfa",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "a594a0c6-7a53-45b3-89d5-54ba89528d90",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "0b7456f9-158e-4437-aeec-23401f6e5fab",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "d9ac5fa9-32ec-41f3-9f8a-7216f3e45eea",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "7fc8d242-59c4-4a5e-92a7-6dd46c1b6695",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "e7dd833a-9112-4346-8b19-0bc2d586fc0a",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "f40441bd-de9b-4aef-972b-ddb5964ecd97",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "c9ba9d6f-7304-4366-b6db-ee52fb9e7e1f",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "b55fb31a-2878-42b1-8e89-744bade4dea0",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "7c97d84f-4755-4db7-95df-0a1ee287c51a",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "f88a620b-77b2-47e8-a6d1-4c80d336ee76",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "132b60ce-c0f4-4a12-bd93-08a65f6a8271",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "0c09abfb-1772-48ff-9d70-4cf7ddd66f44",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "8875e686-7664-4b28-8987-45f5d19c109a",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "11086a3b-7aae-461b-8239-2e4c6cc1976f",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "91a7aa8d-89c0-465e-b272-75810db91f08",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "210cf74e-5234-4fc0-a65e-000393736493",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "80202ae5-738a-46d1-adf8-5eb9c203dddd",
+                "name": "B.Com",
+                "code": "B.C",
+                "departments": [
+                    {
+                        "id": "1871e54b-e04f-4e18-b5d1-8bb9605042cd",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "87ee4da3-043c-46f0-a523-ba46b7fadd77",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "0a486973-a796-442e-bb75-7fcf9ccbef38",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "65c1df00-0e3b-49f7-a594-85817bc56346",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "68d9913a-9694-497f-8799-4bfbbabd9a6f",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "06a8f41d-9cd8-4aa4-b2d4-cca620aaaffd",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "3ba4f69c-d61a-4f00-8fa3-6d13c07ecaad",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "b2589b50-ded5-46e3-ac66-57acffa148c0",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "a7a83f62-2939-4161-a000-000dcb40d850",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "24662ba7-45b6-4490-9b0d-e79b3810c4bf",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "f1b48a45-a51a-4095-baf6-cea4151c553a",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "79a33eb6-4ae6-4168-98c4-0ef868b12bd3",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "b45096c7-d06d-4598-8fda-23be27449589",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "f849f460-5f72-420e-9935-7265ecd231dc",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "4c23b060-79e7-4845-90a3-1942f6a962cd",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "cc17810c-3fa7-49ee-b81c-9b73b736b787",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "fb353821-e6e2-4db8-9c68-3a93a196ed26",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "a3a3100e-098c-4c6a-91c8-739a9e741495",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "bb4e6d66-b1b0-473a-bc11-73b40d929f9d",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "105e51f2-5f59-41f7-85cc-676bff571672",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "f0db2b37-f1cb-4c71-8c03-0dd4d26064f6",
+                "name": "M.Tech",
+                "code": "M.T",
+                "departments": [
+                    {
+                        "id": "55a8e24d-8c0d-484a-87e2-f6f317d909c5",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "1131ff56-abb0-48cd-9e59-08ab325b4d76",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "6354cb6c-1918-429a-97fc-237006af07fb",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "856a06ee-d376-40b8-96a3-b3e94f2daca7",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "6e97324b-7d3a-4889-a3c9-79139af6630a",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "2d28df2f-ff87-425d-a2a9-5738d6782ed0",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "c8b8a861-23ea-4a5e-af5a-0c75f0862c5d",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "9000ebb7-aecf-4537-a78a-dd8646fcb414",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "2fe97f1e-4d7a-4ce8-aea6-7195ff6911f8",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "7b8bdbb4-4751-4916-8caf-2b541e80fa81",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "727b84fd-9c4c-4c04-8f01-6b9b7c427078",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "2c18a134-33d2-4aa6-af41-9a68fef6820a",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "3e539a92-9da3-431a-a257-d25f017a8555",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "c6615f50-a81b-4fa5-94eb-902b288336c9",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "dc69e7ae-9ce9-4ea4-bfb9-e1476b5bb91d",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "119b8845-e96a-46cc-bdbe-1ff8c2101267",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "e225a26c-597c-4463-a56e-113707df83b5",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "ce52d667-6fc7-4d03-ac96-227dd5cb7c99",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "05a748c0-208e-4340-8c6e-43f0da4e6d05",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "b4fb89e3-c648-438c-8b07-ec2b730464f5",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "74badc50-2ba7-4bbe-acf3-39402068cb25",
+                "name": "M.A",
+                "code": "M.A",
+                "departments": [
+                    {
+                        "id": "b06223f8-02fd-4086-b22d-5560f3f6c40f",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "fde677fb-eda0-428b-9e14-e6f5e0d46342",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "18a501ac-8c11-4a0c-bae4-5ddddb56bf7a",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "4a41a41e-5cc8-40fb-922e-601dcd981a72",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "549b6253-5a87-474c-9797-7417aa8899f8",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "0516ede2-e08a-4efe-87d5-a19f82e16fbb",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "447b0c3a-be8a-4eb1-978d-645748750155",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "d6317261-ef97-4e99-a5e9-59331bec2fb2",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "a7169928-1e4f-4674-9353-e4b963a83984",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "988e9c49-a8f5-4a20-a79c-f43f12ad7e60",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "66602147-6659-4026-b3e8-4d18749ff784",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "5ceb9890-3822-475b-a6bb-9ed135adeae7",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "0d961fe0-523a-418e-bebb-d7c779f2d6ef",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "02fb2a1d-9d97-44d4-9563-7aef945af427",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "eb3b5c41-9e6a-4ee6-ad29-6eea4e2501b2",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "5792f395-fccb-4763-a65f-a0ac7e04203b",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "df16f845-a21a-48b6-aa73-3551512c2971",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "d2037516-ca66-4574-bc99-bd8529b3e9ce",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "4894ac1f-5cd5-4d89-a954-d6d6c85a20db",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "143782ca-908b-49b2-a83b-92b0eca22b83",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "4c47080b-ab07-4c9d-8316-75a057dfb66e",
+                "name": "M.Com",
+                "code": "M.C",
+                "departments": [
+                    {
+                        "id": "da8b77ba-bc5b-4775-aafa-e6f7e8c77e27",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "84fb541c-3244-4626-ad70-8ae5896afb0e",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "6694f529-93c6-48ce-afe8-a6dcc758c318",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "3f50704e-e409-43e3-888c-68a2b86d6367",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "4f58f7ef-3622-4a5c-ac4a-8517e916ddc2",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "ae7a3754-9d0d-49a4-9753-5f203448bbf6",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "9ca52123-6f75-4d65-8dad-305262740c3b",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "1faffdec-7f72-4c47-86fd-9f3a71e4d955",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "c473f1e0-005e-471f-8a48-199c9eb54b92",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "fcabd45d-d755-486c-a661-be5a99290b9b",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "45925d55-6785-4a16-a8d7-a8d612673a18",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "fa97f1b9-e044-424e-84da-20fb1f9ba379",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "601dfb15-6950-44e4-919b-0b365494187c",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "0819e144-4028-4551-a2c9-3b706ff220b6",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "aa855f94-d4d2-4825-b9ed-0c103c0dbbe6",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "18c0b890-d158-401a-af96-76203757e534",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "b409ac15-93b6-4764-ad3b-095c44501b20",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "ef654d04-3b8c-4e23-9fa4-cfa1677a4e97",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "402a1528-bbe8-43af-a6ab-263be37fbfb8",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "2bf8920a-fcae-4834-8a32-92861f1cb7ee",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "053ca3e8-4d3f-4ad0-add1-acfea62127e9",
+                "name": "Diploma in Engineering",
+                "code": "DIP",
+                "departments": [
+                    {
+                        "id": "fa81c26d-64c6-482b-a067-9837255c0e40",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "32221d2e-26c2-4b5b-a5b7-b21ee01606cd",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "380f2bc9-9e2c-4e0d-8623-905e1906be96",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "70f376c8-d860-42d9-929a-29292ebe814f",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "510602ed-6518-4578-946d-f014451a063e",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "61e83c9c-62fc-4a20-95b7-2568c5cf8b69",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "2696c254-f7aa-4e57-acae-eda558b59190",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "364066f7-d994-4e07-be10-905b03493b66",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "e061276d-a518-47a7-95e0-cc62598ba2c1",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "248e862f-5143-4e4d-87c9-f650feda4f0a",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "7cb2d5d5-6723-4d47-8199-3a4771df8387",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "6b5aca6a-e115-438d-9621-87080411d7b2",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "a6c18a73-d8a4-4027-8060-6cc5b73812e6",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "e624aeb1-e3ea-49d4-99ec-f21c254b3af5",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "bea59671-e789-42fc-922a-2282c82b4953",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "66cc5ce1-3307-4c16-9f52-7b3ee22cf9e6",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "0c8bbdd9-5fba-4e15-a901-a442e57b8fa5",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "587d73aa-2df0-40b3-b630-2edaced0fc7a",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "2e524fa4-9d80-4e8d-bda4-5a9287265520",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "38e1178a-3bc5-410d-b21f-e2676a2963fa",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "3279452e-30d5-498c-91eb-14fa8868da2a",
+                "name": "PhD in Computer Science",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "2c95d7ec-fcf2-4644-a348-67329fbd5b7d",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "ece6747b-0383-4702-8090-a8c44593a6df",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "721948a3-cf40-461d-b7cd-7cfefc043583",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "e34a23f5-a948-4a65-8dc3-bea6edcbd380",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "2c4a732b-bac6-4f0e-9c8b-63e5c9c49466",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "e35d5a76-54b8-49ff-b0d8-0ef7adda25ed",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "da486c63-52c5-499b-a086-17ea173ea184",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "286c7273-25cd-4ca1-9816-e2e6f7de7e9f",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "f4671da3-68a9-4515-b080-9075a2d51d97",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "e618a042-ddd5-4d6f-bc7f-7074bbd8bf03",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "50c1cc6c-cd53-4a78-b250-cbcc098897d3",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "7f17f221-bd6c-4332-a7ab-d5d0a390f00b",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "ce48c0ad-598f-4b12-931f-e91b4fe3f1df",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "4f44a889-ef99-417b-a473-594b28521f96",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "ba7a0050-7602-4adc-a81e-bcf794670198",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "ade6ba4f-f09d-4c7d-8498-ca506f32e44a",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "710386ad-c28d-4a45-a133-df8bfb28b0a9",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "dccaba7a-451a-44ee-b9b4-eb16a4b42c09",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "41ca51e8-aeb2-4c0b-a0f2-33f05cbfd8d3",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "b4673209-080c-4a01-a735-e6aa7b480680",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "924c3516-16df-4bf2-b2b6-43911777d95e",
+                "name": "PhD in Mathematics",
+                "code": "PHD",
+                "departments": [
+                    {
+                        "id": "f96fb897-3caa-4a69-8619-1957f43d15d9",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "1b2d965f-fa16-48c3-9b04-018d53c69f42",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "3eb3b9fc-cabc-4184-a02c-8334b38453b1",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "29d5b31e-1181-4423-9a27-d5d4aa35eb46",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "fd16bb6c-8ee7-4afd-b301-535d6a922255",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "2c4e9da8-d921-48fa-80b4-1144a6c531c2",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "fa6f637a-8a46-472a-8cd0-339a5b04044a",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "debf9554-f90b-40be-be5b-97f37e069035",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "16307c51-15ec-4cab-aee4-aa543bee08aa",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "6f983541-b760-40c0-a6b4-e6710006c173",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "36a34202-8c64-47cc-84b1-e66b9a3ad5d4",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "8568914f-9847-4545-a529-b065b7e3cf81",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "39d4cf64-92f2-461a-8d6d-21489c069418",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "80e1993b-e9b3-4c84-ad71-d5d14018071b",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "d2e1f60e-fc00-4233-a768-281064bf49ac",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "85c2e08d-d652-4d26-90df-98a93e0fcfd1",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "f8bfec52-4b85-43d7-b0d7-0416b8bdb397",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "0683d760-25d2-4864-bca1-f83e5eb7886a",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "cf554b57-65f9-4340-b930-75e611a20d14",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "fee5af02-78a9-4d77-beec-470733ebd561",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            },
+            {
+                "courseId": "d5618467-6b7d-4ee2-9af8-b825de564941",
+                "name": "BBA",
+                "code": "BBA",
+                "departments": [
+                    {
+                        "id": "d93e990f-cc95-4f9c-939c-d91db3c15613",
+                        "name": "Computer Science",
+                        "code": "COM"
+                    },
+                    {
+                        "id": "3cfaf538-f5f8-4d7f-912f-b3bd794d355b",
+                        "name": "Electrical Engineering",
+                        "code": "ELE"
+                    },
+                    {
+                        "id": "443b069b-ff79-4ceb-9e3f-aaaed7f6c211",
+                        "name": "Mechanical Engineering",
+                        "code": "MEC"
+                    },
+                    {
+                        "id": "f88b171d-509a-469d-9770-d6add8da1a71",
+                        "name": "Civil Engineering",
+                        "code": "CIV"
+                    },
+                    {
+                        "id": "b21edab0-717d-4f17-a71b-354337d870df",
+                        "name": "Information Technology",
+                        "code": "INF"
+                    },
+                    {
+                        "id": "6fedbe15-cc36-4795-9b12-ba91c71e28b3",
+                        "name": "Chemical Engineering",
+                        "code": "CHE"
+                    },
+                    {
+                        "id": "b153f754-42f0-43d3-b837-3ad4756f54c8",
+                        "name": "Biotechnology",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "0b76832b-ae59-4b9b-ac05-ddda2ff00795",
+                        "name": "Aerospace Engineering",
+                        "code": "AER"
+                    },
+                    {
+                        "id": "880c4fc5-0815-4d1e-a898-062421fd83e3",
+                        "name": "Environmental Engineering",
+                        "code": "ENV"
+                    },
+                    {
+                        "id": "bee3748d-740d-47de-811e-204a190c67f4",
+                        "name": "Petroleum Engineering",
+                        "code": "PET"
+                    },
+                    {
+                        "id": "e71077b2-8977-4a6c-8ae5-79264caead56",
+                        "name": "Biomedical Engineering",
+                        "code": "BIO"
+                    },
+                    {
+                        "id": "eecdd4d3-f515-4739-9b61-7ce56583eff5",
+                        "name": "Agricultural Engineering",
+                        "code": "AGR"
+                    },
+                    {
+                        "id": "ff64ff61-56a1-4fe1-be94-2b92386ebc45",
+                        "name": "Food Technology",
+                        "code": "FOO"
+                    },
+                    {
+                        "id": "7605b976-c55a-44e6-8e23-7a1059c347cc",
+                        "name": "Architecture",
+                        "code": "ARC"
+                    },
+                    {
+                        "id": "52fadcdc-9812-4b4f-9acd-e8fc6ce48354",
+                        "name": "Design Engineering",
+                        "code": "DES"
+                    },
+                    {
+                        "id": "4aa993b8-8947-45a6-8e9c-ab49cd12dee8",
+                        "name": "Robotics",
+                        "code": "ROB"
+                    },
+                    {
+                        "id": "55dbbbf7-0b7d-40b1-ace5-c7dd5503225d",
+                        "name": "Data Science",
+                        "code": "DAT"
+                    },
+                    {
+                        "id": "11a2011f-bc1e-4fa8-8d72-e221c1cafbdb",
+                        "name": "Artificial Intelligence",
+                        "code": "ART"
+                    },
+                    {
+                        "id": "06e08a9b-b734-42f7-94b0-1f877f60d9c8",
+                        "name": "Cybersecurity",
+                        "code": "CYB"
+                    },
+                    {
+                        "id": "c8759fff-1128-472d-a6d7-caba6591eed3",
+                        "name": "Mechanical Design",
+                        "code": "MEC"
+                    }
+                ]
+            }
+        ]
+    }
+]
