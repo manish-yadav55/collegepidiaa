@@ -28,7 +28,7 @@ public class IndiaDegreeController {
             List<Map<String, Object>> result = indiaDegreeService.getAllDegreesCoursesDepartments();
             return ResponseEntity.ok(result);
         } catch (IOException e) {
-            return ResponseEntity.status(500).body(null);
+            return ResponseEntity.status(500).body(e);
         }
     }
 }
